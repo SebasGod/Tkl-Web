@@ -1,0 +1,20 @@
+
+.column {
+    float: left;
+    width: 32%;
+    padding: 2px;
+    
+        }
+
+        @media only screen and (max-width: 768px) {
+        .container{
+        flex-wrap: wrap; 
+    }
+    }
+    .centered {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+   

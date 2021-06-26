@@ -1,0 +1,33 @@
+table{
+    width: 800px;
+    height: 200px;
+    border: solid 2px rgb(0, 0, 0) 7px;
+    margin: auto;
+    border-collapse: collapse;
+
+}
+
+td{
+    border:solid rgb(198, 202, 198) 5px;
+    border-collapse: collapse;
+    background-color: rgb(197, 188, 188);
+
+}
+.uwu{
+    height: 50px;
+    width: 150px;
+}
+
+tr{
+    border-collapse: collapse;
+    background-color: rgb(136, 124, 124);
+
+}
+
+.table2{
+    width: 800px;
+    height: 350px;
+    border: solid rgb(0, 0, 0) 7px;
+    margin: auto;
+    border-collapse: collapse;
+}

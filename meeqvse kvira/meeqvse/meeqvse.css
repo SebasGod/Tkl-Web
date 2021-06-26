@@ -1,0 +1,65 @@
+div {
+    width: 100px;
+    border: solid 2px pink;
+    height: 100px;
+}
+
+.d1{
+    background-color: plum;
+    position: static;
+   /* top: 100px;
+    bottom: 100px;
+    left: 100px;
+    right: 100px;*/
+}
+.d2{
+    background-color: rebeccapurple;
+    width: 200px;
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+.d3{
+    background-color: royalblue;
+    width: 300px;
+    position: fixed;
+    left: 50px;
+    bottom: 200px;
+}
+.d4{
+    background-color: seagreen;
+    width: 400px;
+    position: relative;
+    left: 200px;
+    bottom: 50px;
+}
+.d5{
+    background-color: skyblue;
+    width: 500px;
+    position: sticky;
+    left: 300px;
+}
+.d6{
+    background-color: tomato;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    height: 200px;
+    position: relative;
+}
+.item{
+    background-color: teal;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: solid 4px greenyellow;
+    position: absolute;
+    left: 0px;
+    border: 0px;
+}
+.container{
+    background-color: greenyellow;
+    width: 200px;
+    margin: auto;
+    border: solid 2px black;
+}

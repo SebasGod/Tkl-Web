@@ -1,0 +1,10 @@
+table{
+    width: 800px;
+    height: 400px;
+    border: solid rgb(16, 17, 17) 10px;
+    margin: auto;
+    background-color: aquamarine;
+}
+td{
+    border:solid green 5px;
+  }

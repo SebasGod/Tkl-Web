@@ -1,0 +1,360 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    background-color: rgb(30, 120, 161);
+}
+  [class*="col-"] {
+    float: left;
+    padding: 10px;
+  }
+  
+  html {
+    font-family: "Lucida Sans", sans-serif;
+  }
+  
+  .header {
+    border: none;
+    border-radius: 20px 20px 0px 0px;
+    height: 100px;
+    width: 85%;
+    background-color: rgb(73, 187, 80);
+    margin: auto;
+  }
+  
+  .sr{
+    float: right;
+    border: none;
+    height: 80px;
+    padding: 45px;
+    margin: 5px;
+    color: #fff;
+}
+
+.sr1{
+    float: right;
+    border: none;
+    height: 80px;
+    padding: 45px;
+    color: #fff;
+    margin: 5px;
+}
+.sr:hover,.sr1:hover{
+    background: rgb(134, 214, 110);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.pctr{
+    border: none;
+    height: 260px;
+    width: 85%;
+    margin: auto;
+}
+.img1{
+    height: 260px;
+    width: 100%;
+    
+}
+
+.img2{
+  max-width: 35%;
+}
+
+.p1{
+  width: 350px;
+  position: absolute;
+
+}
+
+.hder{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.htitle{
+  position: absolute;
+  margin-top: -23px;
+  margin-left: 55px;
+  font-size: 29px;
+  font-family: sans-serif;
+  background: linear-gradient(to bottom, gray,black,gray, gray);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.htitle1{
+  position: absolute;
+  margin-top: 1px;
+  margin-left: 57px;
+  font-size: 12px;
+  color: whitesmoke;
+}
+
+.row{
+  border: none;
+  background-color:lightgrey;
+  min-height: 800px;
+  width: 85%;
+  margin: auto;
+}
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .menu li {
+    width: 100%;
+    background-color:rgb(3, 119, 173);
+    color: #ffffff;
+    padding: 8px;
+    border-top: none;
+    border-left: solid black 7px;
+    border-bottom: solid 2px gray;
+    box-shadow: 1px 1px 40px 0px black;
+    height: 30px;
+  }
+  
+  .menu li:hover {
+    background-color: #0099cc;
+    border-left: solid 5px rgb(60, 202, 60);
+    cursor: pointer;
+  }
+  
+  .right-bar {
+    list-style:none;
+    border: solid;
+    border-radius: 10px 0px 0px 0px;
+    border-bottom: none;
+    background-color: black;
+    width: 103.8%;
+}
+.aside li{
+  color: white;
+  border: solid black;
+  border-bottom:solid gray ;
+  padding: 3px;
+}
+
+.aside li:hover{
+  background-color: rgb(173, 173, 173);
+  border-left:rgb(173, 173, 173);
+  cursor: pointer;
+}
+  
+  .middle{
+    border: none;
+    background-color: white;
+    width: 100%;
+    height: 780px;
+    margin-top: -20px;
+    overflow: hidden;
+}
+.title{
+  border: none;
+  background-color: rgb(230, 228, 228);
+  border-radius: 10px;
+  width: 80%;
+  height: 40px;
+  margin: auto;
+}
+.ttt{
+  font-weight: bold;
+  padding:10px; 
+}
+.game{
+  border: none;
+  min-height: 380px;
+  margin-top: 10px;
+  margin-left: 55px;
+  width: 80%
+}
+.btm{
+  border: none;
+  background-color: lightgray;
+  border-radius: 10px;
+  width: 100%;
+  height:40px;
+  margin-top: 120px;
+  padding: 4px;
+  display: flex;
+}
+.comment{
+  border: none;
+  background-color: rgb(30, 120, 161);
+  border-radius: 10px;
+  height: 25px;
+  min-width: 25%;
+  margin: 5px;
+  padding-top: 5px;
+  color: white;
+  padding-left: 10px;
+}
+
+.views{
+  border: none;
+  background-color: rgb(30, 120, 161);
+  border-radius: 10px;
+  height: 25px;
+  min-width: 25%;
+  margin: 5px;
+  padding-top: 5px;
+  color: white;
+  padding-left: 10px;
+}
+
+.redmr{
+  border: none;
+  background-color: rgb(60, 202, 60);
+  color: white;
+  min-width: 20%;
+  height: 25px;
+  margin: 5px;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-left: 10px;
+  margin-left: 100px;
+}
+
+.comment:hover,.views:hover,.redmr:hover{
+  cursor: pointer;
+  background-color: rgb(80, 177, 223);
+}
+
+.img2{
+  margin-top: 60px;
+  position: relative;
+
+  width: 50%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.bottom{
+  border: none;
+  background-color: lightgray;
+  margin: 2px;
+  height: 25px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  width: 35%;
+}
+
+.second{
+  border: none;
+  width: 230px;
+  height: 250px;
+  margin-left: 230px;
+  margin-top: -295px;
+}
+  .footer {
+    border: none;
+    border-radius: 0px 0px 20px 20px;
+    height: 70px;
+    width: 85%;
+    background-color: rgb(73, 187, 80);
+    margin: auto;
+}
+.st0{
+    color:#fff;
+    padding: 20px;
+    
+}
+
+[class*="stp"]{
+    float: right;
+    border: none;
+    height: 40px;
+    padding: 10px;
+    color: #fff;
+    
+}
+.stp1:hover{
+    background-color: rgb(134, 214, 110);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.stp2:hover{
+    background-color: rgb(134, 214, 110);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.stp3:hover{
+    background-color: rgb(134, 214, 110);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.stp4:hover{
+    background-color: rgb(134, 214, 110);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.stp5:hover{
+    background-color: rgb(134, 214, 110);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.stp6:hover{
+    background-color: rgb(134, 214, 110);
+    border-radius: 10px;
+    cursor: pointer;
+}
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+    .sr1{display:none}
+    .middle{
+      height:550px;
+      overflow: hidden;
+    }
+    .aside{display:none;}
+  
+  [class*="stp"]{display:none;}
+  .img2{
+    margin-left:-50px;
+    margin-top:50px;
+    position: sticky;
+  }
+  .second{
+     max-height:150px;
+     max-width:200px;
+     margin-left:120px;
+     margin-top:-200px;
+  }
+  .btm{
+    margin-top:220px;
+    margin-left: -50px;
+    width: 120%;
+  }
+  .redmr{
+    margin-left: 10px;
+  }
+  .bottom{display:none} 
+.p1{
+  width: 230px;
+  margin-top: -15px;
+  margin-left: -50px;
+  position: absolute;
+  box-sizing: border-box;
+}
+.hh{
+  margin-top: -55px;
+}
+} 

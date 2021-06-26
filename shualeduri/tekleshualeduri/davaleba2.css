@@ -1,0 +1,17 @@
+table{
+    width: 1000px;
+    height: 600px;
+    border: solid rgb(0, 0, 0) 7px;
+    margin: auto;
+    border-collapse: collapse;
+
+}
+td{ 
+     border:solid rgb(198, 202, 198) 5px;
+    border-collapse: collapse;
+}
+
+.tkl{
+    width: 800px;
+    height: 400px;
+}
